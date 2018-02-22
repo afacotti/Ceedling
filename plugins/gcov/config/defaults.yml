@@ -46,7 +46,7 @@
     :arguments:
         - -p
         - -b
-        - -e "impossibletofind|^vendor.*|^build.*|^test.*|^lib.*"
+        - -e  "impossibletofind|^vendor.*|^build.*|^test.*|^lib.*"
         - --html
         - -r .
         - -o  "$": GCOV_ARTIFACTS_FILE
